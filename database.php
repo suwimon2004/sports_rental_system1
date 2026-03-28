@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "sports_rental_system";
+$username = "admin";          // 🔥 แก้จาก root เป็น admin (ตาม terraform)
+$password = "password123";    // 🔥 แก้จาก "" เป็น password123 (ตาม terraform)
+$dbname = "sports_db";        // 🔥 แก้จาก sports_rental_system เป็น sports_db (ตาม terraform)
 $port = 3306;
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
